@@ -1,3 +1,7 @@
+var displayTime = document.getElementById("time");
+var displayHex = document.getElementById("hex");
+var colorChange = document.getElementById("hex-box");
+
 function getTime () {
   var time = new Date ();
   var hours = time.getHours ();
@@ -15,11 +19,15 @@ function getTime () {
   }
 
   var currentTime = hours + ":" + min + ":" + sec;
-
   displayTime.innerHTML = currentTime;
+
+  var hexColor = "#" + hours + min + sec;
+  displayHex.innerHTML = hexColor;
+
+  colorChange.style.backgroundColor = hexColor;
+  colorChange.innerHTML = hexColor;
 };
 
 setInterval(getTime, 1000);
 
-var displayTime = document.getElementById("time");
 getTime();
