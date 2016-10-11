@@ -1,0 +1,24 @@
+$font: 'Changa', sans-serif;
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.black-box {
+  background: black;
+  width: 690px;
+  height: 460px;
+  line-height: 460px;
+  text-align: center;
+}
+
+#time {
+  color: white;
+  font-family: 'Changa', sans-serif;
+  font-size: 68px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  }
