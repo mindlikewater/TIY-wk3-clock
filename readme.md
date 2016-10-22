@@ -2,7 +2,8 @@
 
 This project is used to showcase a simple clock and a color-changing block that changes every second. The color is based on current time.
 
-My project can be found at: https://mindlikewater.github.io/TIY-wk3-clock.
+My project can be found at:
+[Tai's color clock](https://mindlikewater.github.io/TIY-wk3-clock).
 
 # Objective
 
